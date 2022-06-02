@@ -1,0 +1,6 @@
+title = "CV"
+body = "Abridger's CV"
+name = "Svetlana"
+surname = "Zhavzharova"
+age = "35"
+profession = "Java developer"

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="popup.js"></script>
+</head>
+<body>
+<form name="Form" onsubmit="return false;">
+    <b>Firstname : <input id="firstname" type="text" size="40" required></b><br>
+    <b>Name : <input id="name" type="text" size="40" required></b><br>
+    <b>Age : <input id="age" type="number" size="40" required></b><br>
+    <b>Phone : <input id="phone" type="tel" size="40" required></b><br>
+    <b>Email : <input id="email" type="email" size="40" required></b><br>
+    <b>Student at 42? : <input id="student" type="checkbox"></b><br>
+    <label>Male<input id="gender_male" type="radio" name="Gender" value="Male">
+        Female<input id="gender_female" type="radio" name="Gender" value="Female">
+        Other<input id="gender_other" type="radio" name="Gender" value="Other">
+    </label><br>
+    <button type="submit" onclick="displayFormContents()">Run that sexy Javascript!</button>
+</form>
+</body>
+</html>
